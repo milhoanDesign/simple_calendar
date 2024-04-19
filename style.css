@@ -1,0 +1,10 @@
+
+body {
+    width: 65%;
+    margin: 1rem auto;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 600;
+}
