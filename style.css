@@ -11,14 +11,31 @@ label {
 }
 
 
+.output {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* or grid-template-columns: 25% 25% 25% 25%; */
+    grid-gap: 5px; /* Adjust as needed */
+  }
+  
+  .output li {
+    border: 2px solid white;
+    padding: 5px;
+    height: 40px;
+    background-color: #4a2db6;
+    color: white;
+    list-style: none;
+  }
+  
+
+/* 
 .output * {
     box-sizing: border-box;
   }
-  
+ 
   .output ul {
     padding-left: 0;
   }
-  
+
   .output li {
     display: block;
     float: left;
@@ -29,6 +46,8 @@ label {
     background-color: #4a2db6;
     color: white;
   }
+   */
+
   html {
     font-family: sans-serif;
   }
